@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Delay Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne&display=swap" rel="stylesheet">
+</head>
+<body class="moving-bg">
+    <div class="container">
+        <header class="header">
+            <h1>Delay Calculator</h1>
+        </header>
+        <section class="calc-form">
+            <input type="text" inputmode="numeric" placeholder="BPM" id="bpm-input"/>
+            <select name="resultType" id="result-type">
+                <option value="Notes">Notes</option>
+                <option value="Dotted">Dotted</option>
+                <option value="Triplet">Triplet</option>
+            </select>
+            <button class="submit-btn">Submit</button>
+        </section>
+        <section class="result-table">
+            <ul class="list-container">
+               <li class="head"><h2>1/1</h2></li>
+               <li class="ms"></li>
+               <li class="hz"></li> 
+            </ul>
+            <ul class="list-container">
+               <li class="head"><h2>1/2</h2></li>
+               <li class="ms"></li>
+               <li class="hz"></li> 
+            </ul>
+            <ul class="list-container">
+               <li class="head"><h2>1/4</h2></li>
+               <li class="ms"></li>
+               <li class="hz"></li> 
+            </ul>
+            <ul class="list-container">
+               <li class="head"><h2>1/8</h2></li>
+               <li class="ms"></li>
+               <li class="hz"></li> 
+            </ul>
+            <ul class="list-container">
+               <li class="head"><h2>1/16</h2></li>
+               <li class="ms"></li>
+               <li class="hz"></li> 
+            </ul>
+            <ul class="list-container">
+               <li class="head"><h2>1/32</h2></li>
+               <li class="ms"></li>
+               <li class="hz"></li> 
+            </ul>
+            <ul class="list-container">
+               <li class="head"><h2>1/64</h2></li>
+               <li class="ms"></li>
+               <li class="hz"></li> 
+            </ul>
+            <ul class="list-container">
+               <li class="head"><h2>1/128</h2></li>
+               <li class="ms"></li>
+               <li class="hz"></li> 
+            </ul>
+        </section>
+    </div>
+    <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>
