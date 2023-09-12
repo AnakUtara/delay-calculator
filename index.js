@@ -2,7 +2,6 @@ const inputBpm = document.querySelector("#bpm-input");
 const resultSel = document.querySelector("#result-type");
 const resultOpt = resultSel.value;
 const submitBtn = document.querySelector(".submit-btn");
-
 const delayCalc = {
     notes: (bpm) => {
         return 60000 / bpm;
@@ -23,7 +22,6 @@ submitBtn.addEventListener("click", resetInput);
 document.addEventListener("keydown", (event) => {
     if(event.key === "Enter") {resetInput();} return;
 });
-
 
 function resetInput () { 
     if (inputBpm.value.match(/^[^\d]+$/)){
