@@ -22,7 +22,7 @@ const delayCalc = {
 submitBtn.addEventListener("click", resetInput);
 document.addEventListener("keydown", (event) => {
     if(event.key === "Enter") {resetInput();} return;
-})
+});
 
 
 function resetInput () { 
