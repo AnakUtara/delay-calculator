@@ -189,7 +189,7 @@ h1, h2{
     color: var(--font-clr);
     transition: all 250ms;
     flex-grow: 3;
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-sbold);
 }
 
 .submit-btn:hover {
